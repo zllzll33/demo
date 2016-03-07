@@ -10,19 +10,19 @@ import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.View;
 
+import com.jmessage.jdemo.R;
+
 import java.io.File;
 
 import cn.jpush.im.android.api.JMessageClient;
 import cn.jpush.im.android.api.event.UserDeletedEvent;
 import cn.jpush.im.android.api.event.UserLogoutEvent;
 import cn.jpush.im.android.api.model.UserInfo;
-import com.jmessage.jdemo.R;
 import io.jchat.android.tools.DialogCreator;
 import io.jchat.android.tools.FileHelper;
 import io.jchat.android.tools.SharePreferenceManager;
 
 /**
- * A simple {@link Fragment} subclass.
  */
 public class BaseFragment extends Fragment {
 

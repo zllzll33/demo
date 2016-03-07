@@ -24,7 +24,9 @@ import io.jchat.android.tools.DialogCreator;
 import io.jchat.android.tools.FileHelper;
 import io.jchat.android.tools.SharePreferenceManager;
 
-
+/**
+ * Created by Ken on 2015/3/13.
+ */
 public class BaseActivity extends Activity {
     private static final String TAG = "BaseActivity";
 
