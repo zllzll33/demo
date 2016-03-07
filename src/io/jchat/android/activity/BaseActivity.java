@@ -38,8 +38,7 @@ public class BaseActivity extends Activity {
     protected int mWidth;
     protected int mHeight;
  int a=0;
-    int d=0;
-    int c=0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
