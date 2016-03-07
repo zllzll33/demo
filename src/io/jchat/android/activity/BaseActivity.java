@@ -11,19 +11,20 @@ import android.os.Message;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.View;
+
+import com.jmessage.jdemo.R;
+
 import java.io.File;
+
 import cn.jpush.im.android.api.JMessageClient;
 import cn.jpush.im.android.api.event.UserDeletedEvent;
 import cn.jpush.im.android.api.event.UserLogoutEvent;
 import cn.jpush.im.android.api.model.UserInfo;
-import com.jmessage.jdemo.R;
 import io.jchat.android.tools.DialogCreator;
 import io.jchat.android.tools.FileHelper;
 import io.jchat.android.tools.SharePreferenceManager;
 
-/**
- * Created by Ken on 2015/3/13.
- */
+
 public class BaseActivity extends Activity {
     private static final String TAG = "BaseActivity";
 
