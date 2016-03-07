@@ -22,8 +22,7 @@ import io.jchat.android.tools.DialogCreator;
 import io.jchat.android.tools.FileHelper;
 import io.jchat.android.tools.SharePreferenceManager;
 
-/**
- */
+
 public class BaseFragment extends Fragment {
 
     private static final String TAG = "BaseFragment";

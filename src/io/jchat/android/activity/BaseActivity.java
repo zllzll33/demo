@@ -25,6 +25,7 @@ import io.jchat.android.tools.FileHelper;
 import io.jchat.android.tools.SharePreferenceManager;
 
 /**
+ * helo
  * Created by Ken on 2015/3/13.
  */
 public class BaseActivity extends Activity {
